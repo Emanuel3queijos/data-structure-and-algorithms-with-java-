@@ -1,9 +1,10 @@
+package BubbleSort;
+
 public class BubbleSort {
     public static void main(String[] args) {
 
 Integer array[] = {2,5,3,6,7,4,8,};
 Integer aux;
-Boolean salva;
 
 for (int i = 0; i < array.length; i++){
     for (int j = 0; j < (array.length-1); j++){
